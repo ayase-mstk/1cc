@@ -3,9 +3,9 @@ CFLAGS=-std=c11 -g -static
 1cc: 1cc.c
 
 test: 1cc
-        ./test.sh
+	./test.sh
 
 clean:
-        rm -f 1cc *.o *~ tmp*
+	rm -f 1cc *.o *~ tmp*
 
 .PHONY: test clean
